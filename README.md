@@ -1,4 +1,4 @@
-# end-to-end-ml-project
+# End-to-end-ml-project
 
 ```bash
 conda create -n ml_in_action python=3.11 -y
