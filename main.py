@@ -1,3 +1,3 @@
 from ml_in_action import logger
 
-logger.info("This is my custom log!")
+logger.info("My name is Celsius!")
