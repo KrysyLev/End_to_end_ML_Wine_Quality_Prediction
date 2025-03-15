@@ -33,10 +33,10 @@ class DataTransformation:
 
         # Convert back to DataFrame
         train = pd.DataFrame(X_train_scaled, columns=X.columns)
-        train["target"] = y_train.values  # Add target back
+        train["quality"] = y_train.values  # Add target back
 
         test = pd.DataFrame(X_test_scaled, columns=X.columns)
-        test["target"] = y_test.values  # Add target back
+        test["quality"] = y_test.values  # Add target back
 
         # Save processed data
         train.to_csv(os.path.join(self.config.root_dir, "train.csv"), index=False)
