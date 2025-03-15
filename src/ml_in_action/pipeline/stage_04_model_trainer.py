@@ -1,5 +1,5 @@
 from ml_in_action.config.configuration import ConfigurationManager
-from ml_in_action.components.data_trainer import ModelTrainer
+from ml_in_action.components.model_trainer import ModelTrainer
 from ml_in_action import logger
 
 
