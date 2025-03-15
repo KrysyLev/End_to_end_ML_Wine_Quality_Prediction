@@ -1,10 +1,10 @@
-[2025-03-15 15:31:08,340: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
-[2025-03-15 15:31:08,342: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2025-03-15 15:31:08,342: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-03-15 15:31:08,343: INFO: common: yaml file: schema.yaml loaded successfully]
-[2025-03-15 15:31:08,344: INFO: common: created directory at: artifacts]
-[2025-03-15 15:31:08,345: INFO: common: created directory at: artifacts/data_ingestion]
-[2025-03-15 15:31:08,937: INFO: data_ingestion: artifacts/data_ingestion/wine.zip download! with following info: 
+[2025-03-15 16:12:35,787: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-15 16:12:35,789: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-15 16:12:35,789: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-15 16:12:35,790: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-15 16:12:35,791: INFO: common: created directory at: artifacts]
+[2025-03-15 16:12:35,791: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-03-15 16:12:37,203: INFO: data_ingestion: artifacts/data_ingestion/wine.zip download! with following info: 
 Connection: close
 Content-Length: 21984
 Cache-Control: max-age=300
@@ -17,29 +17,36 @@ X-Frame-Options: deny
 X-XSS-Protection: 1; mode=block
 X-GitHub-Request-Id: 79DA:B5498:5DEA35:6E14AD:67D52A58
 Accept-Ranges: bytes
-Date: Sat, 15 Mar 2025 08:31:06 GMT
+Date: Sat, 15 Mar 2025 09:12:35 GMT
 Via: 1.1 varnish
-X-Served-By: cache-sin-wsss1830086-SIN
+X-Served-By: cache-sin-wsss1830026-SIN
 X-Cache: HIT
-X-Cache-Hits: 1
-X-Timer: S1742027467.688375,VS0,VE2
+X-Cache-Hits: 0
+X-Timer: S1742029955.226817,VS0,VE302
 Vary: Authorization,Accept-Encoding,Origin
 Access-Control-Allow-Origin: *
 Cross-Origin-Resource-Policy: cross-origin
-X-Fastly-Request-ID: d8e39c2af2f78bd9ff8265de59d093143ab7bd69
-Expires: Sat, 15 Mar 2025 08:36:06 GMT
-Source-Age: 35
+X-Fastly-Request-ID: ce167a210ae3ef15018c0954b49bc3416e79c3cb
+Expires: Sat, 15 Mar 2025 09:17:35 GMT
+Source-Age: 0
 
 ]
-[2025-03-15 15:31:08,950: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+[2025-03-15 16:12:37,217: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
-[2025-03-15 15:31:08,950: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
-[2025-03-15 15:31:08,952: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2025-03-15 15:31:08,952: INFO: common: yaml file: params.yaml loaded successfully]
-[2025-03-15 15:31:08,953: INFO: common: yaml file: schema.yaml loaded successfully]
-[2025-03-15 15:31:08,954: INFO: common: created directory at: artifacts]
-[2025-03-15 15:31:08,954: INFO: common: created directory at: artifacts/data_validation]
-[2025-03-15 15:31:08,969: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+[2025-03-15 16:12:37,218: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-03-15 16:12:37,220: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-15 16:12:37,220: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-15 16:12:37,221: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-15 16:12:37,222: INFO: common: created directory at: artifacts]
+[2025-03-15 16:12:37,222: INFO: common: created directory at: artifacts/data_validation]
+[2025-03-15 16:12:37,240: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
 
 x==========x]
+[2025-03-15 16:12:37,242: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-15 16:12:37,242: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-15 16:12:37,243: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-15 16:12:37,244: INFO: common: created directory at: artifacts]
+[2025-03-15 16:12:37,245: INFO: common: created directory at: artifacts/data_transformation]
+[2025-03-15 16:12:37,267: INFO: data_transformation: Split data into training and test sets]
+[2025-03-15 16:12:37,267: INFO: data_transformation: Train shape: (914, 12), Test shape: (229, 12)]
