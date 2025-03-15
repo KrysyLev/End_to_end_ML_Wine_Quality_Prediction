@@ -3,7 +3,7 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://github.com/KrysyLev/end-to-end-ml-project/blob/main/WineQuality.zip
+  source_URL: https://raw.githubusercontent.com/KrysyLev/end-to-end-ml-project/main/WineQuality.zip
   local_data_file: artifacts/data_ingestion/wine.zip
   unzip_dir: artifacts/data_ingestion
 
