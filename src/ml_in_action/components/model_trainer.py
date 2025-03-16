@@ -1,7 +1,8 @@
 import pandas as pd
 import os
+
+from sklearn.neighbors import KNeighborsClassifier
 from ml_in_action import logger
-from sklearn.linear_model import ElasticNet
 import joblib
 
 from ml_in_action.entity.config_entity import ModelTrainerConfig
@@ -20,8 +21,10 @@ class ModelTrainer:
         train_y = train_data[[self.config.target_column]]
         test_y = test_data[[self.config.target_column]]
 
-        model = ElasticNet(
-            alpha=self.config.alpha, l1_ratio=self.config.l1_ratio, random_state=42
+        model = KNeighborsClassifier(
+            n_neighbors=self.config.n_neighbors,
+            weights=self.config.weights,
+            p=self.config.p,
         )
         model.fit(train_x, train_y)
 

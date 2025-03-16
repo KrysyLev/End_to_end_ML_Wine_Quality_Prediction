@@ -258,3 +258,384 @@ x==========x]
 [2025-03-15 18:33:18,302: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
 
 x==========x]
+[2025-03-16 16:12:26,577: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:12:26,592: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:12:26,595: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:12:26,597: INFO: common: created directory at: artifacts]
+[2025-03-16 16:12:26,598: INFO: common: created directory at: artifacts/data_transformation]
+[2025-03-16 16:12:26,626: INFO: 3652478342: Split data into training and test sets]
+[2025-03-16 16:12:26,628: INFO: 3652478342: Train shape: (914, 12), Test shape: (229, 12)]
+[2025-03-16 16:25:27,230: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:25:27,233: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:25:27,235: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:25:27,236: INFO: common: created directory at: artifacts]
+[2025-03-16 16:25:27,237: INFO: common: created directory at: artifacts/model_trainer]
+[2025-03-16 16:25:38,904: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:25:38,906: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:25:38,908: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:25:38,909: INFO: common: created directory at: artifacts]
+[2025-03-16 16:25:38,910: INFO: common: created directory at: artifacts/model_trainer]
+[2025-03-16 16:28:17,472: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:28:17,474: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:28:17,476: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:28:17,477: INFO: common: created directory at: artifacts]
+[2025-03-16 16:28:17,478: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-03-16 16:28:18,671: INFO: 2275865011: artifacts/data_ingestion/wine.zip download! with following info: 
+Connection: close
+Content-Length: 21984
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "85a38be3d4c70e3b6dc97fc47873623da88c9b850e1526aeb57ff236bdd2815c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: CC90:33CA3C:7B902B:FA880C:67D699B6
+Accept-Ranges: bytes
+Date: Sun, 16 Mar 2025 09:28:22 GMT
+Via: 1.1 varnish
+X-Served-By: cache-tyo11925-TYO
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1742117302.058567,VS0,VE468
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b259a3ee2cf5b68fa71e415ade0f3bdff3dd75bf
+Expires: Sun, 16 Mar 2025 09:33:22 GMT
+Source-Age: 0
+
+]
+[2025-03-16 16:28:24,156: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:28:24,158: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:28:24,159: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:28:24,160: INFO: common: created directory at: artifacts]
+[2025-03-16 16:28:24,161: INFO: common: created directory at: artifacts/data_validation]
+[2025-03-16 16:28:40,540: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:28:40,542: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:28:40,544: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:28:40,545: INFO: common: created directory at: artifacts]
+[2025-03-16 16:28:40,547: INFO: common: created directory at: artifacts/data_transformation]
+[2025-03-16 16:28:40,568: INFO: 3741347456: Split data into training and test sets]
+[2025-03-16 16:28:40,569: INFO: 3741347456: Train shape: (914, 12), Test shape: (229, 12)]
+[2025-03-16 16:28:52,831: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:28:52,833: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:28:52,835: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:28:52,836: INFO: common: created directory at: artifacts]
+[2025-03-16 16:28:52,837: INFO: common: created directory at: artifacts/model_trainer]
+[2025-03-16 16:41:23,428: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:41:23,430: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:41:23,432: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:41:23,433: INFO: common: created directory at: artifacts]
+[2025-03-16 16:41:23,434: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-03-16 16:41:23,530: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2025-03-16 16:44:46,958: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:44:46,959: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:44:46,961: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:44:46,962: INFO: common: created directory at: artifacts]
+[2025-03-16 16:44:46,962: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-03-16 16:44:46,977: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2025-03-16 16:45:23,131: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:45:23,133: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:45:23,134: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:45:23,136: INFO: common: created directory at: artifacts]
+[2025-03-16 16:45:23,137: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-03-16 16:45:23,214: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2025-03-16 16:48:55,280: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-16 16:48:55,281: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:48:55,282: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:48:55,283: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:48:55,284: INFO: common: created directory at: artifacts]
+[2025-03-16 16:48:55,284: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-03-16 16:48:56,070: INFO: data_ingestion: artifacts/data_ingestion/wine.zip download! with following info: 
+Connection: close
+Content-Length: 21984
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "85a38be3d4c70e3b6dc97fc47873623da88c9b850e1526aeb57ff236bdd2815c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: CC90:33CA3C:7B902B:FA880C:67D699B6
+Accept-Ranges: bytes
+Date: Sun, 16 Mar 2025 09:49:00 GMT
+Via: 1.1 varnish
+X-Served-By: cache-tyo11930-TYO
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1742118540.063534,VS0,VE245
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 31cd00db03ba4c9d8229fdb33b62afd8c438c3aa
+Expires: Sun, 16 Mar 2025 09:54:00 GMT
+Source-Age: 0
+
+]
+[2025-03-16 16:48:56,083: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-03-16 16:48:56,084: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-03-16 16:48:56,085: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:48:56,086: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:48:56,087: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:48:56,088: INFO: common: created directory at: artifacts]
+[2025-03-16 16:48:56,088: INFO: common: created directory at: artifacts/data_validation]
+[2025-03-16 16:48:56,102: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-03-16 16:48:56,102: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-03-16 16:48:56,105: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:48:56,106: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:48:56,107: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:48:56,107: INFO: common: created directory at: artifacts]
+[2025-03-16 16:48:56,108: INFO: common: created directory at: artifacts/data_transformation]
+[2025-03-16 16:48:56,129: INFO: data_transformation: Split data into training and test sets]
+[2025-03-16 16:48:56,129: INFO: data_transformation: Train shape: (914, 12), Test shape: (229, 12)]
+[2025-03-16 16:48:56,129: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-03-16 16:48:56,129: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-03-16 16:48:56,132: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:48:56,133: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:48:56,135: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:48:56,135: INFO: common: created directory at: artifacts]
+[2025-03-16 16:48:56,136: INFO: common: created directory at: artifacts/model_trainer]
+[2025-03-16 16:48:56,158: ERROR: main: "['quality'] not found in axis"]
+Traceback (most recent call last):
+  File "c:\Users\nguye\Documents\AI\Youtube_tutorials\end-to-end-ml-project\main.py", line 60, in <module>
+    obj.main()
+  File "c:\users\nguye\documents\ai\youtube_tutorials\end-to-end-ml-project\src\ml_in_action\pipeline\stage_04_model_trainer.py", line 17, in main
+    model_trainer_config.train()
+  File "c:\users\nguye\documents\ai\youtube_tutorials\end-to-end-ml-project\src\ml_in_action\components\model_trainer.py", line 19, in train
+    train_x = train_data.drop([self.config.target_column], axis=1)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nguye\.conda\envs\ml_in_action\Lib\site-packages\pandas\core\frame.py", line 5581, in drop
+    return super().drop(
+           ^^^^^^^^^^^^^
+  File "C:\Users\nguye\.conda\envs\ml_in_action\Lib\site-packages\pandas\core\generic.py", line 4788, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nguye\.conda\envs\ml_in_action\Lib\site-packages\pandas\core\generic.py", line 4830, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nguye\.conda\envs\ml_in_action\Lib\site-packages\pandas\core\indexes\base.py", line 7070, in drop
+    raise KeyError(f"{labels[mask].tolist()} not found in axis")
+KeyError: "['quality'] not found in axis"
+[2025-03-16 16:51:06,038: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-16 16:51:06,039: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:51:06,040: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:51:06,041: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:51:06,042: INFO: common: created directory at: artifacts]
+[2025-03-16 16:51:06,042: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-03-16 16:51:06,876: INFO: data_ingestion: artifacts/data_ingestion/wine.zip download! with following info: 
+Connection: close
+Content-Length: 21984
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "85a38be3d4c70e3b6dc97fc47873623da88c9b850e1526aeb57ff236bdd2815c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 75AE:397747:17D0D:414D6:67D69F0E
+Accept-Ranges: bytes
+Date: Sun, 16 Mar 2025 09:51:11 GMT
+Via: 1.1 varnish
+X-Served-By: cache-kul9826-KUL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1742118671.709259,VS0,VE485
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 8624c9ea9b04f495ed6549ede8898473580f146f
+Expires: Sun, 16 Mar 2025 09:56:11 GMT
+Source-Age: 0
+
+]
+[2025-03-16 16:51:06,890: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-03-16 16:51:06,890: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-03-16 16:51:06,892: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:51:06,893: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:51:06,895: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:51:06,895: INFO: common: created directory at: artifacts]
+[2025-03-16 16:51:06,896: INFO: common: created directory at: artifacts/data_validation]
+[2025-03-16 16:51:06,910: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-03-16 16:51:06,911: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-03-16 16:51:06,913: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:51:06,913: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:51:06,915: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:51:06,915: INFO: common: created directory at: artifacts]
+[2025-03-16 16:51:06,916: INFO: common: created directory at: artifacts/data_transformation]
+[2025-03-16 16:51:06,938: INFO: data_transformation: Split data into training and test sets]
+[2025-03-16 16:51:06,939: INFO: data_transformation: Train shape: (914, 12), Test shape: (229, 12)]
+[2025-03-16 16:51:06,939: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-03-16 16:51:40,603: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-16 16:51:40,606: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:51:40,606: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:51:40,607: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:51:40,608: INFO: common: created directory at: artifacts]
+[2025-03-16 16:51:40,608: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-03-16 16:51:41,190: INFO: data_ingestion: artifacts/data_ingestion/wine.zip download! with following info: 
+Connection: close
+Content-Length: 21984
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "85a38be3d4c70e3b6dc97fc47873623da88c9b850e1526aeb57ff236bdd2815c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: CC90:33CA3C:7B902B:FA880C:67D699B6
+Accept-Ranges: bytes
+Date: Sun, 16 Mar 2025 09:51:45 GMT
+Via: 1.1 varnish
+X-Served-By: cache-tyo11934-TYO
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1742118705.480132,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 22fe1f4a2dc6fef89081f1bc74f3ce902362bb79
+Expires: Sun, 16 Mar 2025 09:56:45 GMT
+Source-Age: 165
+
+]
+[2025-03-16 16:51:41,201: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-03-16 16:51:41,201: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-03-16 16:51:41,203: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:51:41,204: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:51:41,205: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:51:41,205: INFO: common: created directory at: artifacts]
+[2025-03-16 16:51:41,206: INFO: common: created directory at: artifacts/data_validation]
+[2025-03-16 16:51:41,218: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-03-16 16:51:41,218: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-03-16 16:51:41,220: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:51:41,220: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:51:41,221: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:51:41,222: INFO: common: created directory at: artifacts]
+[2025-03-16 16:51:41,222: INFO: common: created directory at: artifacts/data_transformation]
+[2025-03-16 16:51:41,243: INFO: data_transformation: Split data into training and test sets]
+[2025-03-16 16:51:41,243: INFO: data_transformation: Train shape: (914, 12), Test shape: (229, 12)]
+[2025-03-16 16:51:41,244: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-03-16 16:51:41,244: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-03-16 16:51:41,245: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:51:41,246: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:51:41,247: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:51:41,247: INFO: common: created directory at: artifacts]
+[2025-03-16 16:51:41,247: INFO: common: created directory at: artifacts/model_trainer]
+[2025-03-16 16:51:41,273: ERROR: main: "['quality'] not found in axis"]
+Traceback (most recent call last):
+  File "c:\Users\nguye\Documents\AI\Youtube_tutorials\end-to-end-ml-project\main.py", line 60, in <module>
+    obj.main()
+  File "c:\users\nguye\documents\ai\youtube_tutorials\end-to-end-ml-project\src\ml_in_action\pipeline\stage_04_model_trainer.py", line 17, in main
+    model_trainer_config.train()
+  File "c:\users\nguye\documents\ai\youtube_tutorials\end-to-end-ml-project\src\ml_in_action\components\model_trainer.py", line 19, in train
+    train_x = train_data.drop([self.config.target_column], axis=1)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nguye\.conda\envs\ml_in_action\Lib\site-packages\pandas\core\frame.py", line 5581, in drop
+    return super().drop(
+           ^^^^^^^^^^^^^
+  File "C:\Users\nguye\.conda\envs\ml_in_action\Lib\site-packages\pandas\core\generic.py", line 4788, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nguye\.conda\envs\ml_in_action\Lib\site-packages\pandas\core\generic.py", line 4830, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nguye\.conda\envs\ml_in_action\Lib\site-packages\pandas\core\indexes\base.py", line 7070, in drop
+    raise KeyError(f"{labels[mask].tolist()} not found in axis")
+KeyError: "['quality'] not found in axis"
+[2025-03-16 16:53:08,027: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-03-16 16:53:08,029: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:53:08,029: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:53:08,031: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:53:08,032: INFO: common: created directory at: artifacts]
+[2025-03-16 16:53:08,032: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-03-16 16:53:08,390: INFO: data_ingestion: artifacts/data_ingestion/wine.zip download! with following info: 
+Connection: close
+Content-Length: 21984
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "85a38be3d4c70e3b6dc97fc47873623da88c9b850e1526aeb57ff236bdd2815c"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 75AE:397747:17D0D:414D6:67D69F0E
+Accept-Ranges: bytes
+Date: Sun, 16 Mar 2025 09:53:12 GMT
+Via: 1.1 varnish
+X-Served-By: cache-kul9825-KUL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1742118793.736423,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 262e9e398d6cbb55dc503b8bf7fc8a8ea35a1f7e
+Expires: Sun, 16 Mar 2025 09:58:12 GMT
+Source-Age: 122
+
+]
+[2025-03-16 16:53:08,401: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-03-16 16:53:08,402: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-03-16 16:53:08,404: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:53:08,404: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:53:08,406: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:53:08,407: INFO: common: created directory at: artifacts]
+[2025-03-16 16:53:08,407: INFO: common: created directory at: artifacts/data_validation]
+[2025-03-16 16:53:08,420: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-03-16 16:53:08,420: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-03-16 16:53:08,422: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:53:08,423: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:53:08,424: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:53:08,425: INFO: common: created directory at: artifacts]
+[2025-03-16 16:53:08,425: INFO: common: created directory at: artifacts/data_transformation]
+[2025-03-16 16:53:08,444: INFO: data_transformation: Split data into training and test sets]
+[2025-03-16 16:53:08,444: INFO: data_transformation: Train shape: (914, 12), Test shape: (229, 12)]
+[2025-03-16 16:53:08,445: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-03-16 16:53:08,445: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-03-16 16:53:08,447: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:53:08,447: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:53:08,448: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:53:08,449: INFO: common: created directory at: artifacts]
+[2025-03-16 16:53:08,449: INFO: common: created directory at: artifacts/model_trainer]
+[2025-03-16 16:53:08,474: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-03-16 16:53:08,474: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2025-03-16 16:53:08,476: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-16 16:53:08,476: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-16 16:53:08,477: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-03-16 16:53:08,478: INFO: common: created directory at: artifacts]
+[2025-03-16 16:53:08,478: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-03-16 16:53:08,501: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2025-03-16 16:53:08,501: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]

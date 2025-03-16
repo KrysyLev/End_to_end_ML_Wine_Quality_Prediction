@@ -1,8 +1,8 @@
 import os
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import train_test_split
-import pandas as pd
 from ml_in_action import logger
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import MinMaxScaler
+import pandas as pd
 
 
 class DataTransformation:
@@ -14,29 +14,45 @@ class DataTransformation:
         data = pd.read_csv(self.config.data_path)
 
         # Drop the last column (assuming it's named 'Id')
-        if "Id" in data.columns:
-            data = data.drop(columns=["Id"])
+        if 'Id' in data.columns:
+            data = data.drop(columns=['Id'])
+        
+        # Rename columns to better recall them.
+        data.rename(columns = {"fixed acidity": "fixed_acidity",
+                            "volatile acidity": "volatile_acidity",
+                            "citric acid": "citric_acid",
+                            "residual sugar": "residual_sugar",
+                            "chlorides": "chlorides",
+                            "free sulfur dioxide": "free_sulfur_dioxide",
+                            "total sulfur dioxide": "total_sulfur_dioxide"},
+                    inplace = True)
 
-        # Splitting features and target variable
-        X = data.iloc[:, :-1]  # All columns except last (features)
-        y = data.iloc[:, -1]  # Last column (target)
+        # Replace with the label Bad, Middle, Good
+        data = data.replace({'quality': {
+            8: 'Good',
+            7: 'Good',
+            6: 'Middle',
+            5: 'Middle',
+            4: 'Bad',
+            3: 'Bad',
+        }})
+        
+        # Data Regularization
+        X_temp = data.drop(columns='quality')
+        y = data.quality
+        
+        scaler = MinMaxScaler(feature_range=(0, 1)).fit_transform(X_temp)
+        X = pd.DataFrame(scaler, columns=X_temp.columns)
 
         # Train-test split (80% train, 20% test)
-        X_train, X_test, y_train, y_test = train_test_split(
-            X, y, test_size=0.2, random_state=42
-        )
-
-        # Apply feature scaling
-        scaler = StandardScaler()  # Use MinMaxScaler() if needed
-        X_train_scaled = scaler.fit_transform(X_train)
-        X_test_scaled = scaler.transform(X_test)
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
         # Convert back to DataFrame
-        train = pd.DataFrame(X_train_scaled, columns=X.columns)
-        train["quality"] = y_train.values  # Add target back
+        train = pd.DataFrame(X_train, columns=X.columns)
+        train['quality'] = y_train.values  # Add target back
 
-        test = pd.DataFrame(X_test_scaled, columns=X.columns)
-        test["quality"] = y_test.values  # Add target back
+        test = pd.DataFrame(X_test, columns=X.columns)
+        test['quality'] = y_test.values  # Add target back
 
         # Save processed data
         train.to_csv(os.path.join(self.config.root_dir, "train.csv"), index=False)

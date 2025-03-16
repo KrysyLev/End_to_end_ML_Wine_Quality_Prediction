@@ -30,8 +30,9 @@ class ModelTrainerConfig:
     train_data_path: Path
     test_data_path: Path
     model_name: str
-    alpha: float
-    l1_ratio: float
+    n_neighbors: int
+    p: int
+    weights: str
     target_column: str
 
 
