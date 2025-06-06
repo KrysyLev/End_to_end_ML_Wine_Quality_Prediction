@@ -21,6 +21,9 @@ This is a full-fledged end-to-end machine learning pipeline to predict wine qual
 ---
 
 ## 🏗️ Project Structure
+
+```plaintext
+
 End_to_end_ML_Wine_Quality_Prediction/
 ├── .github/workflows/ # CI/CD pipeline (GitHub Actions)
 ├── artifacts/ # Trained models, saved assets
@@ -39,6 +42,7 @@ End_to_end_ML_Wine_Quality_Prediction/
 
 ---
 
+```
 ## 🔧 Tech Stack
 
 - **Python 3.8+**
