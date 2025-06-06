@@ -1,111 +1,54 @@
-# End-to-end-ml-project
+# 🍷 End-to-End Machine Learning: Wine Quality Prediction
 
-## Workflows
+This is a full-fledged end-to-end machine learning pipeline to predict wine quality based on physicochemical features. The project integrates everything from data processing and model training to containerized deployment using AWS services like EC2, ECS, ECR, and CI/CD with GitHub Actions.
 
-1. update config.yaml
-2. update schema.yaml
-3. update params.yaml
-4. update the entity 
-5. update the configuration manager in src config
-6. update the components
-7. update the pipeline
-8. update the main.py
-9. update the app.py
+---
 
-# How to run?
-### STEPS:
+## 📌 Features
 
-```bash
-conda create -n ml_in_action python=3.11 -y
-```
+- **Data Handling**: Automatic data validation, preprocessing, and feature engineering.
+- **Model Training**: Uses Random Forest with tunable hyperparameters.
+- **Web Interface**: Flask app for real-time wine quality prediction.
+- **Cloud Integration**:
+  - **Amazon S3** – Stores datasets and trained models.
+  - **Amazon ECR** – Hosts Docker images.
+  - **Amazon ECS (Fargate)** – Runs the containerized application.
+  - **EC2** – Can be used for development or backend compute.
+- **Deployment**:
+  - **Docker** – Containerizes the app for portability.
+  - **GitHub Actions** – CI/CD for automatic testing, Docker build, push to ECR, and deploy to ECS.
 
-```bash
-conda activate ml_in_action
-```
+---
 
-```bash
-pip install -r requirements.txt
-```
+## 🏗️ Project Structure
+End_to_end_ML_Wine_Quality_Prediction/
+├── .github/workflows/ # CI/CD pipeline (GitHub Actions)
+├── artifacts/ # Trained models, saved assets
+├── config/ # Configuration files for training and schema
+├── logs/ # Logging outputs
+├── research/ # EDA notebooks
+├── src/ # Source code (pipeline, model, etc.)
+├── static/ # Static files for Flask
+├── templates/ # HTML templates for the web UI
+├── app.py # Flask application
+├── main.py # Main training pipeline
+├── Dockerfile # Docker build instructions
+├── requirements.txt # Python dependencies
+├── params.yaml # Model hyperparameters
+├── schema.yaml # Input schema for validation
 
-```bash
-python app.py
-```
+---
 
-```bash
-Now open up your local host 0.0.0.0:8080
-```
+## 🔧 Tech Stack
 
-# AWS-CICD-Deployment-with-Github-Actions
+- **Python 3.8+**
+- **scikit-learn, pandas, numpy, seaborn, matplotlib**
+- **Flask** – Web API and frontend
+- **Docker** – Containerization
+- **AWS S3** – Model/data storage
+- **AWS ECR** – Docker image repository
+- **AWS ECS (Fargate)** – App hosting
+- **AWS EC2** – Compute instances for dev/test
+- **GitHub Actions** – Automated CI/CD
 
-## 1. Login to AWS console.
-
-## 2. Create IAM user for deployment
-
-	#with specific access
-
-	1. EC2 access : It is virtual machine
-
-	2. ECR: Elastic Container registry to save your docker image in aws
-
-
-	#Description: About the deployment
-
-	1. Build docker image of the source code
-
-	2. Push your docker image to ECR
-
-	3. Launch Your EC2 
-
-	4. Pull Your image from ECR in EC2
-
-	5. Lauch your docker image in EC2
-
-	#Policy:
-
-	1. AmazonEC2ContainerRegistryFullAccess
-
-	2. AmazonEC2FullAccess
-
-	
-## 3. Create ECR repo to store/save docker image
-    - Save the URI: XXXXXXXXXX.dkr.ecr.ap-southeast-2.amazonaws.com/XXX
-
-	
-## 4. Create EC2 machine (Ubuntu) 
-
-## 5. Open EC2 and Install docker in EC2 Machine:
-	
-	
-	#optinal
-
-	sudo apt-get update -y
-
-	sudo apt-get upgrade
-	
-	#required
-
-	curl -fsSL https://get.docker.com -o get-docker.sh
-
-	sudo sh get-docker.sh
-
-	sudo usermod -aG docker ubuntu
-
-	newgrp docker
-	
-# 6. Configure EC2 as self-hosted runner:
-    setting>actions>runner>new self hosted runner> choose os> then run command one by one
-
-
-# 7. Setup github secrets:
-    AWS_ACCESS_KEY_ID=
-
-    AWS_SECRET_ACCESS_KEY=
-
-    AWS_REGION = us-east-1
-
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
-
-    ECR_REPOSITORY_NAME = simple-app
-
-
- git config --global user.name "<username>"
+---
